@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HairSalonBookingApp/1.0.0": {
+        "runtime": {
+          "HairSalonBookingApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HairSalonBookingApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
