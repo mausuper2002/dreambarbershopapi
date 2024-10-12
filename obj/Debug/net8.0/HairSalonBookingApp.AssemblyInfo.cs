@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HairSalonBookingApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bdf592372facffe4b400ea29a41d509b9bb0655")]
 [assembly: System.Reflection.AssemblyProductAttribute("HairSalonBookingApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HairSalonBookingApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
