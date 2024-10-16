@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Booking Page";
+}
+
+<h2 class="text-center">BOOKING</h2>
+
+<form method="post" action="/Booking/SubmitBooking">
+    <div class="form-group">
+        <label for="name">Name*</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required />
+    </div>
+
+    <div class="form-group">
+        <label for="phone">Phone*</label>
+        <input type="text" class="form-control" id="phone" name="phone" placeholder="Please enter the correct phone number for confirmation." required />
+    </div>
+
+    <div class="form-group">
+        <label for="bookingDate">Booking date*</label>
+        <input type="date" class="form-control" id="bookingDate" name="bookingDate" required />
+    </div>
+
+    <div class="form-group">
+        <label for="time">Time*</label>
+        <select class="form-control" id="time" name="time" required>
+            <option value="10:00">10:00</option>
+            <option value="11:00">11:00</option>
+            <option value="12:00">12:00</option>
+            <option value="13:00">13:00</option>
+            <option value="14:00">14:00</option>
+            <option value="15:00">15:00</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="quantity">Quantity customer*</label>
+        <input type="number" class="form-control" id="quantity" name="quantity" value="1" required />
+    </div>
+
+    <div class="form-group">
+        <label>Booking location*</label><br />
+        <input type="radio" id="location1" name="location" value="Dream Barber shop - Go Vap Dist." required />
+        <label for="location1">Dream Barber shop - Go Vap Dist.</label><br />
+        <input type="radio" id="location2" name="location" value="Dream Barber shop - 9 Dist." required />
+        <label for="location2">Dream Barber shop - 9 Dist.</label>
+    </div>
+
+    <div class="form-group">
+        <label for="stylist">Stylist*</label>
+        <select class="form-control" id="stylist" name="stylist" required>
+            <option value="Quy Hoang">Quy Hoang</option>
+            <option value="Another Stylist">Another Stylist</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
